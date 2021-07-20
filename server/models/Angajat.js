@@ -1,0 +1,56 @@
+const mongoose=require("mongoose")
+const angajatSchema=mongoose.Schema({
+    _id:mongoose.Schema.Types.ObjectId,
+    Nume:{
+        type:String,
+        require:true
+    },
+    Prenume:{
+        type:String,
+        require:true
+    },
+    Adresa:{
+        type:String,
+        require:true
+    },
+    Telefon:{
+        type:Number,
+        require:true
+    },
+    Sex:{
+        type:String,
+        require:true
+    },
+    CNP:{
+        type:Number,
+        require:true
+    },
+    Data_Nastere:{
+        type:String,
+        require:true
+    },
+    Email:{
+        type:String,
+        require:true
+    },
+    Functie:{
+        type:String,
+        require:true
+    },
+    Departament:{
+        type:String
+    },
+    Salariu_Incadrare:{
+        type:Number,
+        require:true
+    },
+    Poza_Profil:{
+        type:String
+    },
+    Semnatura:{
+        type:String
+    }
+
+})
+
+module.exports=mongoose.model("Angajat",angajatSchema)

@@ -1,0 +1,73 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "apexcharts": "^3.27.1",
+    "axios": "^0.21.1",
+    "bulma-pageloader": "^0.3.0",
+    "bulma-tooltip": "^3.0.2",
+    "canvasjs": "^1.8.3",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.0.0",
+    "detectlanguage": "^2.1.0",
+    "fs": "0.0.1-security",
+    "jspdf": "^1.4.1",
+    "languagedetect": "^2.0.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-text-extract": "^1.5.0",
+    "pdfmake": "^0.1.71",
+    "plotly.js-dist": "^1.58.4",
+    "run": "^1.4.0",
+    "sass": "^1.32.8",
+    "serve": "^12.0.0",
+    "signature_pad": "^3.0.0-beta.4",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.1",
+    "vue-carousel-card": "^1.0.6",
+    "vue-event-calendar": "^1.5.2",
+    "vue-form-wizard": "^0.8.4",
+    "vue-router": "^3.5.1",
+    "vue-tabevents": "^1.2.0",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.0.0-beta.3",
+    "word-extractor": "^0.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^5.1.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "postcss": "^8.2.8",
+    "postcss-loader": "^5.2.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

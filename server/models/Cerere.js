@@ -1,0 +1,29 @@
+const mongoose=require("mongoose")
+const cerereSchema=mongoose.Schema({
+    Tip_Cerere:{
+        type:String
+    },
+    Angajat:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"Angajat",
+    },
+    Data_Inceput:{
+        type:String
+    },
+    Data_Sfarsit:{
+        type:String
+    },
+    Data_Trimitere:{
+        type:String
+    },
+    Cauza_Concediu:{
+        type:String
+    },
+    Mesaj:{
+        type:String,
+    },
+    Status:{
+        type:String
+    }
+})
+module.exports=mongoose.model("Cerere",cerereSchema)
